@@ -80,11 +80,31 @@ React를 학습하면서 직접 만드는 개인 기술 블로그입니다.
 
 | Day | 작업 | PR |
 |---|---|---|
-| Day 1 | React 프로젝트 초기 설정 | 예정 |
+| Day 1 | React 프로젝트 초기 설정 | [#1](https://github.com/dltmdall/react-tech-blog/pull/1) |
 | Day 2 | 홈 화면과 미니멀 디자인 | 예정 |
 | Day 3 | 컴포넌트와 게시글 목록 | 예정 |
 | Day 4 | 라우팅과 Markdown 게시글 | 예정 |
 | Day 5 | 품질 점검과 배포 | 예정 |
+
+## 로컬 실행 방법
+
+```bash
+git clone https://github.com/dltmdall/react-tech-blog.git
+cd react-tech-blog
+npm install
+npm run dev
+```
+
+코드 검사와 프로덕션 빌드는 다음 명령으로 실행합니다.
+
+```bash
+npm run lint
+npm run build
+```
+
+## 배포 주소
+
+Day 5 배포 후 추가할 예정입니다.
 
 ## 개발 과정
 

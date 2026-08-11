@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
