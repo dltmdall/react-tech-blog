@@ -86,6 +86,26 @@ React를 학습하면서 직접 만드는 개인 기술 블로그입니다.
 | Day 4 | 라우팅과 Markdown 게시글 | 예정 |
 | Day 5 | 품질 점검과 배포 | 예정 |
 
+## 로컬 실행 방법
+
+```bash
+git clone https://github.com/dltmdall/react-tech-blog.git
+cd react-tech-blog
+npm install
+npm run dev
+```
+
+코드 검사와 프로덕션 빌드는 다음 명령으로 실행합니다.
+
+```bash
+npm run lint
+npm run build
+```
+
+## 배포 주소
+
+Day 5 배포 후 추가할 예정입니다.
+
 ## 개발 과정
 
 각 단계는 다음 순서로 진행합니다.
