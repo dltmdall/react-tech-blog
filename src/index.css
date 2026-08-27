@@ -8,6 +8,7 @@
   --color-muted: #555555;
   --color-subtle: #666666;
   --color-background: #ffffff;
+  --color-border: rgb(223, 222, 222);
   color: var(--color-text);
   background-color: var(--color-background);
 }
@@ -97,6 +98,33 @@ p {
 }
 
 footer small {
+  font-size: 0.875rem;
+  color: var(--color-subtle);
+}
+
+.post-item {
+  padding-block: 24px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.post-item > h3 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.post-date {
+  font-size: 0.875rem;
+  color: var(--color-subtle);
+}
+
+.post-description {
+  margin-top: 12px;
+}
+
+.post-tags {
+  margin-top: 8px;
   font-size: 0.875rem;
   color: var(--color-subtle);
 }
