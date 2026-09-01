@@ -82,7 +82,7 @@ React를 학습하면서 직접 만드는 개인 기술 블로그입니다.
 |---|---|---|
 | Day 1 | React 프로젝트 초기 설정 | [#1](https://github.com/dltmdall/react-tech-blog/pull/1) |
 | Day 2 | 홈 화면과 미니멀 디자인 | [#2](https://github.com/dltmdall/react-tech-blog/pull/2) |
-| Day 3 | 컴포넌트와 게시글 목록 | 예정 |
+| Day 3 | 컴포넌트와 게시글 목록 | [#3](https://github.com/dltmdall/react-tech-blog/pull/3) |
 | Day 4 | 라우팅과 Markdown 게시글 | 예정 |
 | Day 5 | 품질 점검과 배포 | 예정 |
 
