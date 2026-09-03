@@ -1,3 +1,6 @@
+import startReactBlogContent from "../content/start-react-blog.md?raw"
+import minimalHomeDesign from "../content/minimal-home-design.md?raw"
+
 export const posts = [
   {
     title: "React로 기술 블로그 시작하기",
@@ -5,7 +8,8 @@ export const posts = [
     date: "2026-08-10",
     tags: ["React", "Vite"],
     published: true,
-    description: "React와 Vite를 통해 기술 블로그 만들기"
+    description: "React와 Vite를 통해 기술 블로그 만들기",
+    content: startReactBlogContent,
   },
   {
     title: "미니멀 홈 화면 만들기",
@@ -13,7 +17,8 @@ export const posts = [
     date: "2026-08-20",
     tags: ["HTML", "CSS"],
     published: true,
-    description: "미니멀한 디자인으로 홈 화면 구현하기"
+    description: "미니멀한 디자인으로 홈 화면 구현하기",
+    content: minimalHomeDesign,
   },
   {
     title: "컴포넌트와 props 학습",
@@ -21,6 +26,6 @@ export const posts = [
     date: "2026-08-27",
     tags: ["React", "JavaScript"],
     published: false,
-    description: "컴포넌트와 props를 이해하고 프로젝트에 적용하기"
+    description: "컴포넌트와 props를 이해하고 프로젝트에 적용하기",
   },
 ]
