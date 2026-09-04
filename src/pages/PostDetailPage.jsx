@@ -1,10 +1,17 @@
 import { useParams } from "react-router"
 import ReactMarkdown from "react-markdown"
+import { useEffect } from "react"
 
 function PostDetailPage({ posts }) {
   const { slug } = useParams()
 
   const selectedPost = posts.find((post) => post.slug === slug && post.published)
+
+  const pageTitle = selectedPost ? selectedPost.title : "게시글이 존재하지 않습니다"
+
+  useEffect(() => {
+    document.title = pageTitle
+  }, [pageTitle])
 
   if (!selectedPost) {
     return (

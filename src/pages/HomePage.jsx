@@ -1,7 +1,12 @@
 import Profile from '../components/Profile.jsx'
 import PostList from '../components/PostList.jsx'
+import { useEffect } from 'react'
 
 function HomePage({ posts }) {
+  useEffect(() => {
+    document.title = "승미의 기술 블로그"
+  }, [])
+
   return (
     <>
       <Profile
