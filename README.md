@@ -84,7 +84,7 @@ React를 학습하면서 직접 만드는 개인 기술 블로그입니다.
 | Day 2 | 홈 화면과 미니멀 디자인 | [#2](https://github.com/dltmdall/react-tech-blog/pull/2) |
 | Day 3 | 컴포넌트와 게시글 목록 | [#3](https://github.com/dltmdall/react-tech-blog/pull/3) |
 | Day 4 | 라우팅과 Markdown 게시글 | [#4](https://github.com/dltmdall/react-tech-blog/pull/4) |
-| Day 5 | 품질 점검과 배포 | 예정 |
+| Day 5 | 품질 점검과 배포 | [#5](https://github.com/dltmdall/react-tech-blog/pull/5) |
 
 ## 로컬 실행 방법
 
@@ -104,7 +104,7 @@ npm run build
 
 ## 배포 주소
 
-Day 5 배포 후 추가할 예정입니다.
+[승미의 기술 블로그](https://react-tech-blog.vercel.app)
 
 ## 개발 과정
 
